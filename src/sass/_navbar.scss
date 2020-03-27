@@ -1,12 +1,15 @@
 // Base styling for the navbar
 #mainNav {
 	box-shadow: $box-shadow;
-	background-color: $white;
+	background-color: $bg-navfoo;
 	transition: background-color 0.2s ease;
 	.navbar-brand {
 		font-family: $font-family-sans-serif;
 		font-weight: $font-weight-bold;
-		color: $gray-900;
+		color: white
+	}
+	.navbar-brand img {
+		margin-right: 10px;
 	}
 	.navbar-nav {
 		.nav-item {
@@ -17,7 +20,7 @@
 			}
 
 			.nav-link {
-				color: $gray-600;
+				color: white;
 				font-family: $font-family-sans-serif;
 				font-weight: $font-weight-bold;
 				font-size: 0.9rem;
@@ -29,12 +32,15 @@
 			}
 		}
 	}
+	button {
+		background-color: #d4d4d49b !important;
+	}
 	@include media-breakpoint-up(lg) {
 		// Base styling for the navbar - screen sizes greater than the large breakpoint
 		box-shadow: none;
 		background-color: transparent;
 		.navbar-brand {
-			color: fade-out($white, .3);
+			color: white;
 			&:hover {
 				color: $white;
 			}
@@ -42,7 +48,7 @@
 		.navbar-nav {
 			.nav-item {
 				.nav-link {
-					color: fade-out($white, .3);
+					color: white;
 					padding: 0 1rem;
 					&:hover {
 						color: $white;
@@ -62,9 +68,9 @@
 	// Navbar styling applied when the page is scrolled
 	.site-container.navbar-scrolled #mainNav {
 		box-shadow: $box-shadow;
-		background-color: $white;
-		.navbar-brand {
-			color: $gray-900;
+		background-color: $bg-navfoo;
+		.navbar-brand { 	
+			color: white;
 			&:hover {
 				color: $primary;
 			}
@@ -72,12 +78,17 @@
 		.navbar-nav {
 			.nav-item {
 				.nav-link {
-					color: $gray-900;
+					color: white;
 					&:hover {
 						color: $primary;
 					}
 				}
 			}
+		}
+	}
+	.navbar-brand:hover {
+		.navbar-brand img{
+			filter: invert(21%) sepia(24%) saturate(4375%) hue-rotate(268deg) brightness(50%) contrast(95%);
 		}
 	}
 }

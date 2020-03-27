@@ -35,20 +35,18 @@ export default class IndexPage extends React.Component {
   render() {
     return (
       <Layout>
-        <SEO title="Home"/>
+        <SEO title="Kids Party"/>
         <section className="page-section bg-primary" id="about">
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-8 text-center">
-                <h2 className="text-white mt-0">We've got what you need!</h2>
+                <h2 className="text-white mt-0">¡Hacemos la fiesta que necesitas!</h2>
                 <hr className="divider light my-4"/>
-                <p className="text-white-50 mb-4">Start Bootstrap has everything you need to get your new website up
-                  and
-                  running in no time! Choose one of our open source, free to download, and easy to use themes! No
-                  strings
-                  attached!</p>
+                <p className="text-white-50 mb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                Ex eum quisquam culpa voluptatum ipsa nisi, veritatis voluptatibus id obcaecati non, mollitia 
+                atque nam dolore? Minima nulla aspernatur asperiores cum odit.</p>
                 <a className="btn btn-light btn-xl js-scroll-trigger" href="#services"
-                   onClick={Scroller.handleAnchorScroll}>Get Started!</a>
+                   onClick={Scroller.handleAnchorScroll}>¡Comencemos!</a>
               </div>
             </div>
           </div>
@@ -56,35 +54,35 @@ export default class IndexPage extends React.Component {
 
         <section className="page-section" id="services">
           <div className="container">
-            <h2 className="text-center mt-0">At Your Service</h2>
+            <h2 className="text-center mt-0">Que Ofrecemos</h2>
             <hr className="divider my-4"/>
             <div className="row">
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
-                  <i className="fas fa-4x fa-gem text-primary mb-4"></i>
-                  <h3 className="h4 mb-2">Sturdy Themes</h3>
-                  <p className="text-muted mb-0">Our themes are updated regularly to keep them bug free!</p>
+                  <i className="fas fa-4x fa-puzzle-piece text-primary mb-4"></i>
+                  <h3 className="h5 mb-2">Juegos personalizados</h3>
+                  <p className="text-muted mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore, error!</p>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
-                  <i className="fas fa-4x fa-laptop-code text-primary mb-4"></i>
-                  <h3 className="h4 mb-2">Up to Date</h3>
-                  <p className="text-muted mb-0">All dependencies are kept current to keep things fresh.</p>
+                  <i className="fas fa-4x fa-stopwatch text-primary mb-4"></i>
+                  <h3 className="h5 mb-2">Carreras de obstáculos</h3>
+                  <p className="text-muted mb-0">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, eum.</p>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
-                  <i className="fas fa-4x fa-globe text-primary mb-4"></i>
-                  <h3 className="h4 mb-2">Ready to Publish</h3>
-                  <p className="text-muted mb-0">You can use this design as is, or you can make changes!</p>
+                  <i className="fas fa-4x fa-pencil-alt text-primary mb-4"></i>
+                  <h3 className="h5 mb-2">Todos dibujando</h3>
+                  <p className="text-muted mb-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi, aliquid.</p>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
-                  <i className="fas fa-4x fa-heart text-primary mb-4"></i>
-                  <h3 className="h4 mb-2">Made with Love</h3>
-                  <p className="text-muted mb-0">Is it really open source if it's not made with love?</p>
+                  <i className="fas fa-4x fa-paper-plane text-primary mb-4"></i>
+                  <h3 className="h5 mb-2">Jugamos con papeles</h3>
+                  <p className="text-muted mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi, temporibus!</p>
                 </div>
               </div>
             </div>
@@ -99,10 +97,10 @@ export default class IndexPage extends React.Component {
                   <Img fluid={this.props.data.images.edges[0].node.childImageSharp.fluid}/>
                   <div className="portfolio-box-caption">
                     <div className="project-category text-white-50">
-                      Category
+                      Galería
                     </div>
                     <div className="project-name">
-                      Project Name
+                      Descripción
                     </div>
                   </div>
                 </a>
@@ -112,10 +110,10 @@ export default class IndexPage extends React.Component {
                   <Img fluid={this.props.data.images.edges[1].node.childImageSharp.fluid}/>
                   <div className="portfolio-box-caption">
                     <div className="project-category text-white-50">
-                      Category
+                      Galería
                     </div>
                     <div className="project-name">
-                      Project Name
+                      Descripción
                     </div>
                   </div>
                 </a>
@@ -125,10 +123,10 @@ export default class IndexPage extends React.Component {
                   <Img fluid={this.props.data.images.edges[2].node.childImageSharp.fluid}/>
                   <div className="portfolio-box-caption">
                     <div className="project-category text-white-50">
-                      Category
+                      Galería
                     </div>
                     <div className="project-name">
-                      Project Name
+                      Descripción
                     </div>
                   </div>
                 </a>
@@ -138,10 +136,10 @@ export default class IndexPage extends React.Component {
                   <Img fluid={this.props.data.images.edges[3].node.childImageSharp.fluid}/>
                   <div className="portfolio-box-caption">
                     <div className="project-category text-white-50">
-                      Category
+                      Galería
                     </div>
                     <div className="project-name">
-                      Project Name
+                      Descripción
                     </div>
                   </div>
                 </a>
@@ -151,10 +149,10 @@ export default class IndexPage extends React.Component {
                   <Img fluid={this.props.data.images.edges[4].node.childImageSharp.fluid}/>
                   <div className="portfolio-box-caption">
                     <div className="project-category text-white-50">
-                      Category
+                      Galería
                     </div>
                     <div className="project-name">
-                      Project Name
+                      Descripción
                     </div>
                   </div>
                 </a>
@@ -164,10 +162,10 @@ export default class IndexPage extends React.Component {
                   <Img fluid={this.props.data.images.edges[5].node.childImageSharp.fluid}/>
                   <div className="portfolio-box-caption p-3">
                     <div className="project-category text-white-50">
-                      Category
+                      Galería
                     </div>
                     <div className="project-name">
-                      Project Name
+                      Descripción
                     </div>
                   </div>
                 </a>
@@ -176,32 +174,35 @@ export default class IndexPage extends React.Component {
           </div>
         </section>
 
-        <section className="page-section bg-dark text-white">
-          <div className="container text-center">
-            <h2 className="mb-4">Free Download at Start Bootstrap!</h2>
-            <a className="btn btn-light btn-xl" href="https://startbootstrap.com/themes/creative/">Download Now!</a>
-          </div>
-        </section>
-
         <section className="page-section" id="contact">
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-8 text-center">
-                <h2 className="mt-0">Let's Get In Touch!</h2>
+                <h2 className="mt-0">¡Contactános!</h2>
                 <hr className="divider my-4"/>
-                <p className="text-muted mb-5">Ready to start your next project with us? Give us a call or send us an
-                  email
-                  and we will get back to you as soon as possible!</p>
+                <p className="text-muted mb-5">Estamos listos para recibir tu consulta. <br/>
+                Dános un llamado o mensaje por correo electrónico y nos contactaremos a la brevedad.</p>
               </div>
             </div>
             <div className="row">
               <div className="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
-                <i className="fas fa-phone fa-3x mb-3 text-muted"></i>
-                <div>+1 (202) 555-0149</div>
+                <i className="fas fa-phone text-primary fa-3x mb-3"></i>
+                <div>(123) 456-7890</div>
               </div>
               <div className="col-lg-4 mr-auto text-center">
-                <i className="fas fa-envelope fa-3x mb-3 text-muted"></i>
-                <a className="d-block" href="mailto:contact@yourwebsite.com">contact@yourwebsite.com</a>
+                <i className="fas fa-envelope text-primary fa-3x mb-3"></i>
+                <a className="d-block" href="/">info@tusitioweb.com</a>
+              </div>
+            </div>
+            <div className="row social justify-content-center">
+              <div className="social-container">
+                <h5 className="text-center">Seguínos</h5>
+                <div className="social-buttons">
+                  <li><i className="fab text-primary fa-3x fa-facebook"></i></li>
+                  <li><i className="fab text-primary fa-3x fa-instagram"></i></li>
+                  <li><i className="fab text-primary fa-3x fa-youtube"></i></li>
+                  <li><i className="fab text-primary fa-3x fa-twitter"></i></li>
+                </div>
               </div>
             </div>
           </div>

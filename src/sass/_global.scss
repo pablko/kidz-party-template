@@ -48,3 +48,35 @@ hr.light {
 .modal-backdrop.show {
 	opacity: 0.8;
 }
+
+//Services
+
+#services p {
+	font-size: 14px;
+}
+
+//Contact
+
+#contact {
+	padding-bottom: 5rem;
+}
+
+.social {
+	margin-top: 3rem;
+}
+.social-buttons {
+	margin-top: 1.5rem;
+}
+.social-buttons li {
+	list-style-type: none;
+	display: inline;
+	cursor: pointer;
+	margin: 0 1rem;
+}
+
+//Footer
+
+footer {
+	background-color: $bg-navfoo;
+	font-family: $font-family-sans-serif;
+}

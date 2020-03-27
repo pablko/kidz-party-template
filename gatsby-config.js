@@ -1,9 +1,9 @@
 module.exports = {
-  pathPrefix: `/gatsby-creative`,
+  pathPrefix: `/kids-party`,
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Plantilla hecha con GatsbyJS`,
+    description: `Sitio realizado con Gatsby.js.`,
+    author: `pablko`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

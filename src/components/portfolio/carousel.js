@@ -12,7 +12,7 @@ const PortfolioCarousel = ({ images, current }) => {
         <Img fluid={image.node.childImageSharp.fluid}/>
         <figcaption>
           <div className="bottom-bar">
-            <div className="counter">{index + 1} of {images.length}</div>
+            <div className="counter">{index + 1} de {images.length}</div>
           </div>
         </figcaption>
       </figure>
