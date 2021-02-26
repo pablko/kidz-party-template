@@ -40,7 +40,7 @@ export default class IndexPage extends React.Component {
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-8 text-center">
-                <h2 className="text-white mt-0">¡Hacemos la fiesta que necesitas!</h2>
+                <h2 className="text-white mt-0">Preparamos tu fiesta</h2>
                 <hr className="divider light my-4"/>
                 <p className="text-white-50 mb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
                 Ex eum quisquam culpa voluptatum ipsa nisi, veritatis voluptatibus id obcaecati non, mollitia 
