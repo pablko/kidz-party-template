@@ -7,9 +7,9 @@
   Kids Party Template
 </h1>
 
-Template from [Gatsby Creative](https://github.com/JohnJKerr/gatsby-creative)
+Template fuente: [Gatsby Creative](https://github.com/JohnJKerr/gatsby-creative)
 
-[**Demo Website**](https://johnjkerr.github.io/gatsby-creative)
+[**Demo**](https://kidz-party.netlify.com/)
 
 ## ✨ Features
 
